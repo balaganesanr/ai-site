@@ -1,0 +1,13 @@
+{
+  "name": "pricing-plans",
+  "version": "1.0.0",
+  "description": "A responsive pricing section with monthly/annual toggle",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "framer-motion": "^10.16.4",
+    "lucide-react": "^0.309.0",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.2.0"
+  }
+}
