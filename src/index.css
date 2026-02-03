@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --background: 222 47% 5%;
+  --foreground: 0 0% 98%;
+  --card: 222 47% 8%;
+  --card-foreground: 0 0% 98%;
+  --popover: 222 47% 8%;
+  --popover-foreground: 0 0% 98%;
+  --primary: 45 93% 55%;
+  --primary-foreground: 0 0% 10%;
+  --secondary: 217 24% 16%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 217 18% 18%;
+  --muted-foreground: 215 20% 70%;
+  --accent: 198 76% 48%;
+  --accent-foreground: 0 0% 98%;
+  --border: 217 18% 24%;
+  --input: 217 18% 24%;
+  --ring: 45 93% 55%;
+}
+
+body {
+  @apply bg-background text-foreground;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
